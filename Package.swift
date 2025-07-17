@@ -11,7 +11,7 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-         .package(name: "Gzip", url: "https://github.com/maerki/GzipSwift", branch: "main"),
+         .package(url: "https://github.com/maerki/GzipSwift", branch: "main"),
          .package(name: "CSV.swift", url: "https://github.com/yaslab/CSV.swift", from: "2.4.2"),
          .package(name: "SwiftTestReporter", url: "https://github.com/allegro/swift-junit.git", from: "2.0.0"),
          .package(name: "swift-log", url: "https://github.com/apple/swift-log.git", from: "1.0.0"),
